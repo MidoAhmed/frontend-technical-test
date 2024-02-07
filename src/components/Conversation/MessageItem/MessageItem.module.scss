@@ -1,0 +1,21 @@
+.message {
+  .messageAuthor {
+    color: #a4a4a4;
+    font-weight: bold;
+  }
+
+  .messageBody {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+
+    &.me {
+      background-color: #2496f4;
+      color: white;
+    }
+
+    &.other {
+      background-color: #e8e8ea;
+    }
+  }
+}
